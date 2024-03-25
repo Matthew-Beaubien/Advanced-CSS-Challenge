@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #303030;
+}
+
+.mainpage {
+    margin-right: 25%;
+}
+
+.header {
+    padding: 20px 20px 20px 0px;
+    background-color: rgb(30, 30, 30);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color:  rgb(230, 166, 99);
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+
+a {
+    color:   rgb(230, 166, 99);
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+      
+}
+
+.background {
+background-image: url("assets/the-halal-design-studio-gxDwmj6R3f4-unsplash.jpg");
+background-position: center;
+height: 500px;
+
+}
+
+p {
+    font-size: 14pt;
+    margin-left: 35px;
+    padding-left: 25px;
+}
+
+.bgcaption {
+    background-color: rgb(230, 166, 99);
+    color: #303030;
+    padding: 25px;
+    font-size: 16pt;
+    width: fit-content;
+    position: relative;
+    left: 85vw;
+    top: 400px;
+    
+}
+
+/* Start of Main Sections Content Styling */
+.left-section {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+/* "About Me" and "Contact Me" Sections Titles' Styling */
+.left-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: #222222;
+    margin: 10px;
+    padding-right: 5px;
+    width: 10%;
+    text-align: end;
+    border-right: #222222 solid 3px;
+}
+
+.about-para {
+    padding-left: 15vw;
+    width: 90%;
+}
+
+/* "About Me" and "Contact Me" Section Contents' Styling */
+
+
+/* "Work" Section Content Stlyling */
+.right-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.right-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+
+/* "Work" Section Font Styling */
+.right-section p {
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(230, 166, 99);
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+.project-sub p {
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(230, 166, 99);
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+
+}
+
+/* Main Project Section Styling */
+.project-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+
+/* Others Projects Section Styling */
+.project-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 98%;
+    padding-left: 12%;
+}
+
+/* Main Project Image Styling */
+.module1{
+    background-image: url("assets/nigel-hoare-1lh3IYGif3A-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    border: rgb(230, 166, 99) 5px solid;
+    position: relative;
+}
+
+/* Main Project Hover Styling */
+.module1:hover {
+    opacity: 85%;
+}
+
+/* LED Wall Image Styling */
+.comingsoon1 {
+    background-image: url(assets/digital-marketing-meeting.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    margin-bottom: 1%;
+    border: rgb(230, 166, 99) 5px solid;
+    position: relative;
+}
+.comingsoon2 {
+    background-image: url(assets/aperture-vintage-QI8Gk4vVYCY-unsplash.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    margin-bottom: 1%;
+    border: rgb(230, 166, 99) 5px solid;
+    position: relative;
+}
+
+.comingsoon3 {
+    background-image: url(assets/jigar-panchal-y9Nv_f1AZK4-unsplash.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    border: rgb(230, 166, 99) 5px solid;
+    position: relative;
+}
+
+.comingsoon4 {
+    background-image: url(assets/martin-martz-3jkgyzJ-VSw-unsplash.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    border: rgb(230, 166, 99) 5px solid;
+    position: relative;
+}
+
+.comingsoon1:hover {
+    opacity: 85%;
+}
+
+.comingsoon2:hover {
+    opacity: 85%;
+}
+
+.comingsoon3:hover {
+    opacity: 85%;
+}
+
+.comingsoon4:hover {
+    opacity: 85%;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.contact li {
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+
